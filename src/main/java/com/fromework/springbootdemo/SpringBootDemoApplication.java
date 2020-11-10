@@ -2,6 +2,10 @@ package com.fromework.springbootdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
+import javax.sql.DataSource;
+
 //声明该类是一个Springboot的引导类
 @SpringBootApplication
 public class SpringBootDemoApplication {

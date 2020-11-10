@@ -26,6 +26,13 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!--@ConfigurationProperties的执行器配置 不配置也能执行，不过配置了后再配置yml person时会有提示-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
